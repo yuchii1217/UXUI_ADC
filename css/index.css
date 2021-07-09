@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+.prim-navbar {
+    height: 100;
+    background-color: rgb(66, 3, 3);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-navbar {
+    height: 50px;
+}
+
+.utility {
+    background-color: rgb(44, 2, 2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25px;
+}
+.utility-title {
+    padding: 50px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.prim-navbar-title {
+    text-decoration: none !important;
+    color: orange;
+    font-weight: regular;
+    font-family: 'Rufina';
+}
+
+.landingpage-header {
+    background-image: url("/image/header-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    font-family: 'Rufina';
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 75px;
+    
+}
+
+body {
+    
+}
+
+h2 {
+    font-family: 'Rufina' !important;
+    font-size: 64px;
+    font-weight: bold !important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+/** Upcoming Events **/
+
+.upcomingevents {
+    height: 700px;
+    background-image: url("/image/upcomingevent-background.png");
+    background-size: fit;
+    padding: 50px;
+}
+.upcomingevent-title {
+    margin-bottom: 64px;
+}
+.event-title-date {
+    display: flex;
+    justify-content:space-between
+}
+.event-title {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 800;
+}
+.event-date{
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+}
+.event-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.upcomingevents-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upcomingevent-cardbody {
+    padding: 25px;
+}
+.card {
+    margin-right: 25px;
+    background-color: rgb(105, 3, 8) !important;
+    color: white !important;
+}
+.card-btn {
+    display: block;
+    width: 100%;
+    background-color:rgb(154, 3, 30);
+    color: white;
+    font-family: 'Roboto' !important;
+    font-weight: 300 !important;
+    text-decoration: none;
+}
+.card-btn:hover {
+    background-color: orange;
+    color: rgb(154, 3, 30);
+    font-weight: 500 !important;
+}
