@@ -35,17 +35,19 @@
 }
 
 .landingpage-header {
-    background-image: url("/image/header-img1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/header-img1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    position: relative;
+    height: 720px;
+    width: 100%;
     color: white;
     font-family: 'Rufina';
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 75px;
+    padding: 72px;
     
 }
 
@@ -66,16 +68,22 @@ h2 {
 
 .upcomingevents {
     height: 700px;
-    background-image: url("/image/upcomingevent-background.png");
-    background-size: fit;
-    padding: 50px;
+    background: linear-gradient(#510004, #230002);
+    padding: 64px;
 }
-.upcomingevent-title {
-    margin-bottom: 64px;
+.upcomingevent-divider {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 64px !important;
 }
+
 .event-title-date {
     display: flex;
-    justify-content:space-between
+    justify-content: space-between;
 }
 .event-title {
     font-family: 'Roboto';
@@ -100,8 +108,9 @@ h2 {
 .upcomingevent-cardbody {
     padding: 25px;
 }
-.card {
-    margin-right: 25px;
+.upcoming-card {
+    margin-right: 64px;
+    margin-left: 64px;
     background-color: rgb(105, 3, 8) !important;
     color: white !important;
 }
@@ -113,9 +122,146 @@ h2 {
     font-family: 'Roboto' !important;
     font-weight: 300 !important;
     text-decoration: none;
+    border-radius: 25px !important;
 }
 .card-btn:hover {
     background-color: orange;
     color: rgb(154, 3, 30);
     font-weight: 500 !important;
+}
+
+/** Our Guru Section **/
+
+.section-ourguru {
+    background: linear-gradient(#230002, #470004);
+    width: 100%;
+    height: 700px;
+    padding: 64px;
+}
+.ourguru-divider {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding-bottom: 64px;
+}
+.ourguru-description {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+}
+.ourguru-info {
+    color: white;
+    padding: 64px;
+    width: 50%;
+}
+.button-guru {
+    color: white;
+    background-color: rgb(154, 3, 30);
+    width: 50%;
+    border: none;
+    height: 48px;
+    border-radius: 25px;
+    font-family: 'Roboto' !important;
+    font-weight: 300 !important;
+}
+.button-guru:hover {
+    background-color: orange;
+    color: rgb(154, 3, 30);
+    font-weight: 500 !important;
+}
+.ourguru-name {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+.ourguru-summary {
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+/** Offerings Section **/
+
+.section-offerings {
+    background: linear-gradient(#470004, #690005);
+    width: 100%;
+    height: 700px;
+    padding: 64px;
+}
+.offerings-divider {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 64px;
+}
+.offering-card {
+    background: #f2f2f2;
+    font-family: 'Roboto';
+    height: 375px;
+}
+.offering-cardbody {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.offering-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offering-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.offercards-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.offering-location {
+    font-size: 12px;
+}
+
+/** Arpana Community Banner **/
+
+.community-banner {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.384)), url(../image/newsletter-background.png);
+    height: 600px;
+    background-size: cover;
+}
+.community-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+    width: 50%;
+    margin-left: 60%;
+    
+}
+.community-info-title {
+    font-family: 'Rufina';
+    color: #FB8B24;
+}
+.community-info-summary {
+    color: white;
+    width: 60%;
+    padding-top: 32px;
+}
+
+/** Footer **/
+.section-footer {
+    display: flex;
+    justify-content: center;
 }
