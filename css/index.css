@@ -291,13 +291,13 @@ h2 {
     padding: 8px;
 }
 .newsletter-h2 {
-    color: orange;
+    color: orange !important;
     font-family: 'Rufina';
     font-size: 32px !important;
 }
 .newsletter-h4 {
-    color: white;
-    font-family: 'Roboto';
+    color: white !important;
+    font-family: 'Roboto' !important;
     font-size: 16px !important;
     font-weight: 400;
 }
@@ -319,6 +319,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
 
 }
 .newsletter {
