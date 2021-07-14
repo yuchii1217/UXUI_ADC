@@ -269,8 +269,89 @@ h2 {
     font-weight: 500;
 }
 
-/** Footer **/
-.section-footer {
+/**Footer**/
+
+.footer {
+    background: url(/image/footer/footer-background.png);
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.connect-h2 {
+    color: white;
+    font-family: 'Rufina';
+    font-size: 32px !important;
+
+}
+.social-icons {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.newsletter-h2 {
+    color: orange;
+    font-family: 'Rufina';
+    font-size: 32px !important;
+}
+.newsletter-h4 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px !important;
+    font-weight: 400;
+}
+.form-name {
+    color: white;
+}
+.form-control {
+    width: 100%;
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 64px;
+    justify-content: space-between;
+}
+.connect-with-us {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.newsletter {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.newsletter-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter-button {
+    background-color: rgb(154, 3, 30);
+    border-radius: 25px !important;
+    color: white;
+    border: 4px solid rgb(154, 3, 30) !important;
+}
+.footer-button {
+    margin: auto;
+}
+.footer-logo {
     display: flex;
     justify-content: center;
+    padding: 32px;
+}
+.footer-copyright {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
