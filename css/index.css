@@ -283,12 +283,14 @@ h2 {
     color: white;
     font-family: 'Rufina';
     font-size: 32px !important;
+    justify-content: left !important;
 
 }
 .social-icons {
     text-decoration: none;
     color: white;
     padding: 8px;
+
 }
 .newsletter-h2 {
     color: orange !important;
