@@ -84,7 +84,7 @@
 
 /**Footer**/
 .footer {
-    background: url(/image/footer/footer-background.png);
+    background: url(../image/footer/footer-background.png);
     margin: 0;
     height: 100%;
     background-position: center;
