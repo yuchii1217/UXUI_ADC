@@ -21,7 +21,8 @@
     height: 25px;
 }
 .utility-title {
-    padding: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
     font-size: 12px;
     text-decoration: none;
@@ -33,7 +34,14 @@
     font-weight: regular;
     font-family: 'Rufina';
 }
+.prim-navbar-title:hover {
+    font-weight: regular;
+    background-color: orange;
+    border-radius: 8px;
+    color: rgb(44, 2, 2);
+    border: 10px solid orange;
 
+}
 .landingpage-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/header-img1.png");
     background-size: cover;
@@ -50,11 +58,9 @@
     padding: 72px;
     
 }
-
-body {
-    
+.header-text {
+    padding-left: 80px;
 }
-
 h2 {
     font-family: 'Rufina' !important;
     font-size: 64px;
@@ -204,6 +210,8 @@ h2 {
     background: #f2f2f2;
     font-family: 'Roboto';
     height: 375px;
+    margin-right: 32x;
+    margin-left: 32px;
 }
 .offering-cardbody {
     padding: 16px;
