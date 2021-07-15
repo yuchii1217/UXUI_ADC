@@ -34,7 +34,7 @@ html {
 }
 .prim-navbar-title {
     text-decoration: none !important;
-    color: orange;
+    color: #FB8B24;
     font-weight: regular;
     font-family: 'Rufina';
 }
@@ -132,18 +132,18 @@ body {
     margin: auto;
     margin-top: 64px;
     margin-bottom: 32px;
-    background-color:rgb(154, 3, 30);
-    color: white;
+    background-color:#FB8B24;
+    color: #9A031E;
     font-family: 'Roboto' !important;
-    font-weight: 300 !important;
+    font-weight: 500 !important;
     text-decoration: none;
     border-radius: 25px !important;
     border: none;
 }
 .event-btn:hover {
-    background-color: #FB8B24;
-    color: rgb(154, 3, 30);
-    font-weight: 400 !important;
+    background-color: #F17A0D;
+    color: #9A031E;
+    font-weight: 500 !important;
 }
 
 
@@ -176,18 +176,18 @@ body {
     width: 50%;
 }
 .button-guru {
-    color: white;
-    background-color: rgb(154, 3, 30);
-    width: 50%;
+    color: #9A031E;
+    background-color: #FB8B24;
+    width: 200px;
     border: none;
     height: 48px;
     border-radius: 25px;
     font-family: 'Roboto' !important;
-    font-weight: 300 !important;
+    font-weight: 500 !important;
 }
 .button-guru:hover {
-    background-color: #FB8B24;
-    color: rgb(154, 3, 30);
+    background-color: #F17A0D;
+    color: #9A031E;
     font-weight: 500 !important;
 }
 .ourguru-name {
@@ -301,6 +301,14 @@ body {
     height: 8px;
     background-color: rgb(14, 14, 14);
 }
+#myBtn {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
 .footer {
     background: url(../image/footer/footer-background.png);
     margin: 0;
@@ -323,7 +331,7 @@ body {
 
 }
 .newsletter-h2 {
-    color: orange !important;
+    color: #FB8B24 !important;
     font-family: 'Rufina';
     font-size: 32px !important;
 }
@@ -367,10 +375,18 @@ body {
     align-items: center;
 }
 .newsletter-button {
-    background-color: rgb(154, 3, 30);
+    background-color: #FB8B24;
     border-radius: 25px !important;
-    color: white;
-    border: 4px solid rgb(154, 3, 30) !important;
+    color: #9A031E;
+    font-family: 'Roboto' !important;
+    border: 4px solid #FB8B24 !important;
+    font-weight: 400 !important;
+}
+.newsletter-button:hover {
+    background-color: #F17A0D;
+    color: #9A031E;
+    font-weight: 400 !important;
+    border: 4px solid #F17A0D !important;
 }
 .footer-button {
     margin: auto;
