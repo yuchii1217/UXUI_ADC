@@ -3,7 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
 
 
     <!-- Required meta tags RWD -->
@@ -13,6 +15,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
 
     <title>Arpana Dance Company</title>
 
@@ -26,27 +33,27 @@
     <nav class="prim-navbar">
         <a class="prim-navbar-title" href="#" data-tilt data-tilt-max="40">The Company</a>
         <a class="prim-navbar-title" href="#" data-tilt data-tilt-max="40">The School</a>
-        <img class="logo-navbar" src="image/logo/Logo-white.png" data-tilt data-tilt-max="50">
+        <a class="logo-navbar" data-tilt data-tilt-max="50" href="index.html"><img src="image/logo/Logo-white.png" width="100px"></a>
         <a class="prim-navbar-title" href="#" data-tilt data-tilt-max="40">Media & Press</a>
         <a class="prim-navbar-title" href="#" data-tilt data-tilt-max="40">About Us</a>
     </nav>
 
     <div class="landingpage-header">
-                <!--Carousel-->
+        <!--Carousel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="carousel/carousel-1.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="carousel/carousel-2.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="carousel/carousel-3.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="carousel/carousel-4.png" alt="Third slide">
-            </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="carousel/carousel-1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel/carousel-2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel/carousel-3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="carousel/carousel-4.png" alt="Third slide">
+                </div>
             </div>
         </div>
 
@@ -64,8 +71,7 @@
                             <h5 class="event-title">SHE</h5>
                             <h6 class="event-date">July 01, 2021</h6>
                         </div>
-                    <p class="event-text">Getty Museum<br>Los Angeles, CA</p>
-                    <a href="#" class="btn card-btn">Learn More</a>
+                        <p class="event-text">Getty Museum<br>Los Angeles, CA</p>
                     </div>
                 </div>
                 <div class="card upcoming-card" style="width: 18rem;">
@@ -75,8 +81,7 @@
                             <h5 class="event-title">Gang</h5>
                             <h6 class="event-date">August 10, 2021</h6>
                         </div>
-                    <p class="event-text">World Music Institution<br>New York City, NY</p>
-                    <a href="#" class="btn card-btn">Learn More</a>
+                        <p class="event-text">World Music Institution<br>New York City, NY</p>
                     </div>
                 </div>
                 <div class="card upcoming-card" style="width: 18rem;">
@@ -86,12 +91,12 @@
                             <h5 class="event-title">Margam</h5>
                             <h6 class="event-date">August 10, 2021</h6>
                         </div>
-                    <p class="event-text">University of Redlands<br>Redlands, CA</p>
-                    <a href="#" class="btn card-btn">Learn More</a>
+                        <p class="event-text">University of Redlands<br>Redlands, CA</p>
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
+        <button class="event-btn">View all Events</button>
     </div>
 
     <!-- Our Guru -->
@@ -100,10 +105,11 @@
             <img class="ourguru-divider" src="image/ourguru-divider.png">
         </div>
         <div class="ourguru-description">
-            <img src="image/ourguru-image.png">
+            <img src="image/ourguru-image.png" data-tilt data-tilt-max="20">
             <div class="ourguru-info">
                 <h5 class="ourguru-name">Ramya Harishankar</h5>
-                <p class="ourguru-summary">Brings to Bharata Natyam all these qualities enhanced by vigorous training under the best gurus: the late Swamimalai K. Rajaratnam and Kalanidhi Narayanan.</p>
+                <p class="ourguru-summary">Brings to Bharata Natyam all these qualities enhanced by vigorous training
+                    under the best gurus: the late Swamimalai K. Rajaratnam and Kalanidhi Narayanan.</p>
                 <br>
                 <button class="button button-guru">Learn More</button>
             </div>
@@ -111,7 +117,7 @@
 
     </div>
 
-        <!-- Offerings-->
+    <!-- Offerings-->
     <div class="section-offerings">
         <img class="offerings-divider" src="image/offerings-divider.png">
         <div class="offercards-section">
@@ -122,8 +128,9 @@
                         <h5 class="offering-title">Enroll in Classes</h5>
                         <h6 class="offering-location">Irvine, CA</h6>
                     </div>
-                <p class="offering-text">Enroll in Arpana Dance School to immerse yourself or your child in culture, discipline, and the arts. (Youth & Adult Classes offered)</p>
-                <a href="./enrollnow.html" class="btn card-btn">Enroll Now</a>
+                    <p class="offering-text">Enroll in Arpana Dance School to immerse yourself or your child in culture,
+                        discipline, and the arts. (Youth & Adult Classes offered)</p>
+                    <a href="./enrollnow.html" class="btn card-btn">Enroll Now</a>
                 </div>
             </div>
             <div class="card offering-card" style="width: 18rem;">
@@ -132,8 +139,9 @@
                     <div class="offering-info">
                         <h5 class="offering-title">Book us to Perform</h5>
                     </div>
-                <p class="offering-text">Book the Arpana Dance Company to perform at your upcoming cultural fair, fundraiser, or event. </p>
-                <a href="#" class="btn card-btn">Request a Booking</a>
+                    <p class="offering-text">Book the Arpana Dance Company to perform at your upcoming cultural fair,
+                        fundraiser, or event. </p>
+                    <a href="#" class="btn card-btn">Request a Booking</a>
                 </div>
             </div>
         </div>
@@ -144,7 +152,8 @@
         <div class="community-info">
             <h1 class="community-info-title">Arpana Community</h1>
             <h2 class="community-info-subtitle">Stay up-to-date with Arpana</h2>
-            <p class="community-info-summary"> Stay in the loop of what is going on in our Dance Company and Dance School. We would love to share our passion with you on any social media space!</p>
+            <p class="community-info-summary"> Stay in the loop of what is going on in our Dance Company and Dance
+                School. We would love to share our passion with you on any social media space!</p>
         </div>
     </div>
 
@@ -155,14 +164,19 @@
                 <h2 class="connect-h2">Connect with us</h2>
                 <div class="socials">
                     <a class="social-icons" href="#"><img src="image/footer/Icon-FB.png" width="40px" alt="FB Icon"></a>
-                    <a class="social-icons" href="#"><img src="image/footer/Icon-Insta.png" width="40px" alt="IG Icon"></a>
-                    <a class="social-icons" href="#"><img src="image/footer/Icon-LinkdIn.png" width="40px" alt="LI Icon"></a>
-                    <a class="social-icons" href="#"><img src="image/footer/Icon-YouTube.png" width="40px" alt="YT Icon"></a>
+                    <a class="social-icons" href="#"><img src="image/footer/Icon-Insta.png" width="40px"
+                            alt="IG Icon"></a>
+                    <a class="social-icons" href="#"><img src="image/footer/Icon-LinkdIn.png" width="40px"
+                            alt="LI Icon"></a>
+                    <a class="social-icons" href="#"><img src="image/footer/Icon-YouTube.png" width="40px"
+                            alt="YT Icon"></a>
                 </div>
                 <div class="email-phone">
-                    <a class="social-icons" href="#"><img src="image/footer/Icon-Phone.png" alt="Phone Icon" width="20px"> 888-888-8888</a>
+                    <a class="social-icons" href="#"><img src="image/footer/Icon-Phone.png" alt="Phone Icon"
+                            width="20px"> 888-888-8888</a>
                     <br>
-                    <a class="social-icons" href="#"><img src="image/footer/Icon-Mail.png" alt="Email Icon" width="20px"> arpanadancecompany@gmail.com</a>
+                    <a class="social-icons" href="#"><img src="image/footer/Icon-Mail.png" alt="Email Icon"
+                            width="20px"> arpanadancecompany@gmail.com</a>
                 </div>
             </div>
 
@@ -174,7 +188,8 @@
                 <form>
                     <div class="form-group form-name">
                         <label for="formGroupExampleInput">Enter Email Address</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="youremail@email.com">
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="youremail@email.com">
                     </div>
                 </form>
                 <div class="footer-button">
@@ -189,7 +204,7 @@
     <div class="footer-copyright">
         <p>2021@Arpana Company, all rights reserved. Design and specification subject to change without notice.</p>
     </div>
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -205,7 +220,10 @@
     <!--Tilt.js-->
     <script src="js/tilt.jquery.js"></script>
     <!--jQuery-->
-    <script src="js/jquery-3.6.0.js"></script> <!-- Load jQuery first -->
+    <script src="js/jquery-3.6.0.js"></script> 
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

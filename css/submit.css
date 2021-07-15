@@ -21,7 +21,8 @@
     height: 25px;
 }
 .utility-title {
-    padding: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
     font-size: 12px;
     text-decoration: none;
@@ -32,6 +33,13 @@
     color: orange;
     font-weight: regular;
     font-family: 'Rufina';
+}
+.prim-navbar-title:hover {
+    font-weight: regular;
+    background-color: orange;
+    border-radius: 8px;
+    color: rgb(44, 2, 2);
+    border: 10px solid orange;
 }
 
 
@@ -85,14 +93,21 @@ h3 {
     margin-bottom: 72px;
 }
 .home-button {
-    width: 25% !important;
+    width: 270px;
+    height: 48px;
+    border: none;
     border-radius: 25px !important;
     background: rgb(154, 3, 30);
     color: white;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
     font-family: 'Roboto';
     font-weight: 300;
     text-decoration: none;
-    margin: auto;
+    text-align: center !important;
+    vertical-align: middle !important;
+    line-height: 35px !important;
 }
 .home-button:hover {
     background-color: orange;
@@ -139,6 +154,7 @@ h3 {
     width: 100%;
 }
 .footer-info {
+    width: 80%;
     display: flex;
     flex-direction: row;
     margin: auto;
