@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .prim-navbar {
     height: 100;
     background-color: rgb(66, 3, 3);
@@ -13,7 +17,7 @@
 }
 
 .utility {
-    background-color: rgb(44, 2, 2);
+    background-color: rgb(14, 14, 14);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -36,10 +40,10 @@
 }
 .prim-navbar-title:hover {
     font-weight: regular;
-    background-color: orange;
+    background-color: #FB8B24;
     border-radius: 8px;
     color: rgb(44, 2, 2);
-    border: 10px solid orange;
+    border: 10px solid #FB8B24;
 }
 .landingpage-header {
     background-color: black;
@@ -137,7 +141,7 @@ body {
     border: none;
 }
 .event-btn:hover {
-    background-color: orange;
+    background-color: #FB8B24;
     color: rgb(154, 3, 30);
     font-weight: 400 !important;
 }
@@ -182,7 +186,7 @@ body {
     font-weight: 300 !important;
 }
 .button-guru:hover {
-    background-color: orange;
+    background-color: #FB8B24;
     color: rgb(154, 3, 30);
     font-weight: 500 !important;
 }
@@ -260,7 +264,7 @@ body {
     border-radius: 25px !important;
 }
 .card-btn:hover {
-    background-color: orange;
+    background-color: #FB8B24;
     color: rgb(154, 3, 30);
     font-weight: 400 !important;
 }
@@ -293,7 +297,10 @@ body {
 }
 
 /**Footer**/
-
+.footer-split {
+    height: 8px;
+    background-color: rgb(14, 14, 14);
+}
 .footer {
     background: url(../image/footer/footer-background.png);
     margin: 0;
